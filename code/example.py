@@ -1,0 +1,1 @@
+print("Estoy ejecutando mi primer script en Thonny")
