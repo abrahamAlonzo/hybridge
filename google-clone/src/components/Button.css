@@ -35,3 +35,7 @@
   min-width: 54px;
   padding: 0 16px;
 }
+
+.google-button.rounded {
+  border-radius: 20px;
+}

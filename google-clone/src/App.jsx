@@ -48,10 +48,10 @@ function App() {
           />
           
           <div className="button-container">
-            <Button type="submit" className="search-button">
+            <Button type="submit" className="search-button" rounded={true}>
               Búsqueda de Google
             </Button>
-          <Button type="submit" className="lucky-button" onClick={handleLucky}>
+          <Button type="submit" className="lucky-button" onClick={handleLucky} rounded={true}>
             Me siento con suerte
           </Button>
           </div>
