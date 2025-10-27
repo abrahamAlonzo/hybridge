@@ -1,0 +1,37 @@
+.google-button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  transition: all 0.2s ease;
+  font-family: arial, sans-serif;
+}
+
+.google-button:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.google-button:active {
+  box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  background-color: #f8f9fa;
+}
+
+.google-button.search-button {
+  min-width: 54px;
+  padding: 0 16px;
+}
+
+.google-button.lucky-button {
+  min-width: 54px;
+  padding: 0 16px;
+}
